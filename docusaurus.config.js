@@ -66,16 +66,28 @@ const config = {
           {
             type: 'doc',
             docId: 'intro',
-            position: 'left',
+            position: 'right',
             label: 'Tutorial',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            label: 'Whatever2',
+            position: 'right',
+          },
+          {
+            href: 'https://github.com/facebook/docusaurus',
+            label: 'Whatever3',
             position: 'right',
           },
         ],
+      },
+      announcementBar: {
+        id: 'support_us',
+        content:
+          'This is a small information bar in the docusaurus.config',
+        backgroundColor: '#fafbfc',
+        textColor: '#091E42',
+        isCloseable: true,
       },
       footer: {
         style: 'dark',
@@ -93,15 +105,15 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
+                label: 'Whatever 1',
                 href: 'https://stackoverflow.com/questions/tagged/docusaurus',
               },
               {
-                label: 'Discord',
+                label: 'Whatever 2',
                 href: 'https://discordapp.com/invite/docusaurus',
               },
               {
-                label: 'Twitter',
+                label: 'Whatever 3',
                 href: 'https://twitter.com/docusaurus',
               },
             ],
@@ -110,8 +122,8 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Whatever',
+                to: '/docs/my-custom-url',
               },
               {
                 label: 'GitHub',
@@ -120,7 +132,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Whatever.`,
       },
       prism: {
         theme: lightCodeTheme,

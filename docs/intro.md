@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Tutorial
+# Name from title
 
 This is a normal markdown with some additionnal things
 
